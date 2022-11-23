@@ -4,23 +4,28 @@
 </p>
 
 # Overview
-# Purpose - Background & Topic Selection Reasoning
-Craft beer is becoming increasing demanded by consumers in today’s market. Consumers’ willingness to spend more on craft beer based on variety, flavor and quality has increased since its beginnings in the 1960s. Craft beer is typically made with higher quality ingredients, which provides consumers with a more flavorful and distinctive tasting beer than mass-produced options. Those reaching for a craft beer often want to try something different and new. The number of operating craft breweries in the U.S. reached an all-time high in 2021 of 9,118. We have come together as a team to help with the biggest question when it comes to craft beer, "Which one should I get?". We are developing a Beer Recommending system using [Kaggle Beer Profile and Ratings Data Set](https://www.kaggle.com/datasets/ruthgn/beer-profile-and-ratings-data-set) and a machine learning algorithm to recommend a beer just for you based on your taste preferences. 
 
-# Questions to answer based on dataset.
+The market for craft beer in the U.S. continues to grow, as consumers’ willingness to spend more for variety, flavor and quality has increased since its beginnings in the 1960s. Craft beer typically features higher quality ingredients, providing consumers with a more distinct and flavorful beer than mass-produced options. Those reaching for a craft beer often want to try something different and new. The number of independent breweries operating in the U.S. reached an all-time high in 2021, with 9,118 different locations producing their own brew ([Brewers Association](https://www.brewersassociation.org/statistics-and-data/national-beer-stats/)). For perspective, there were only about 13,000 McDonald's locations nationwide that same year ([Statista](https://www.statista.com/statistics/256040/mcdonalds-restaurants-in-north-america/)), and there are currently just 3,062 Chipotle locations in the United States ([ScrapeHero](https://www.scrapehero.com/location-reports/Chipotle-USA/)). So yeah, people like their beer.<br></br>
+
+But with so many beers and breweries to choose from, finding the right beer can seem daunting, and even a little hopeless. That's where we come in. Our goal is to answer everyone's first question when they get to the bar or the beer aisle, "What should I get?" To do so, we are developing a Beer Recommendation app, using this [Beer Profile and Ratings Data Set](https://www.kaggle.com/datasets/ruthgn/beer-profile-and-ratings-data-set), to find the perfect beer for you based on your taste preferences. Featuring taste profiles and consumer reviews for over 3000 unique beers and 934 different breweries, we are confident we can find you the right brew.
+<br></br>
+
+Cheers.
+<br></br>
+
+# Questions
 <p align="center">
   <img width="950" height="400" src="Images/beerss.jpeg">
 </p>
 
 
-### #1 What style of beer is most popular based on data from consumers?
-### #2 Which flavor profile is most popular based on the dataset?
-### #3 Which breweries have the most popular beers based on reviews?
-### #4 What type of beer you might prefer based on your input of type of taste preferences?
+### 1.) What style of beer is most popular based on data from consumers?
+### 2.) Which flavor profile is most popular based on the dataset?
+### 3.) Which breweries have the most highly-rated beers based on user reviews?
+### 4.) What type of beer might you prefer based on your own taste preferences?
+<br></br>
 
-
-
-# Answers to questions using the dataset.
+# Answers
 [Tableau Visual Graphs](https://public.tableau.com/app/profile/tim6081/viz/Final_Project_16681028326290/Most_popular_flavor_profile?publish=yes)
 
 ### #1 Most Popular Beer
@@ -49,48 +54,42 @@ Craft beer is becoming increasing demanded by consumers in today’s market. Con
 ## - Jack Moletteire
 ## - Timothy Malasky
 ## - Souleymane Ndiaye
- 
+<br></br>
+
 # Software and Technologies
-•  <img width="21" height="21" src="Images/python.svg"> Python
+•  <img width="21" height="21" src="Images/python.svg"> Python 3.7.13
 
 • <img width="21" height="21" src="Images/python_sqlite.jpeg"> SQLite
 
-• <img width="21" height="21" src="Images/pandas-icon.svg"> Pandas library
+• <img width="21" height="21" src="Images/pandas-icon.svg"> Pandas 1.3.5
 
-• <img width="21" height="21" src="Images/sklearnicon.png"> Machine Learning Algorithm – Scikit-Learn
+• <img width="21" height="21" src="Images/sklearnicon.png"> Scikit-Learn 1.1.3
+
+• <img width="21" height = "21" src="Images/tf.png"> TensorFlow 2.10.0
 
 • <img width="21" height="21" src="Images/Tableauicon.jpeg"> Tableau Public 
-
-• <img width="21" height="21" src="Images/powerpoint.jpeg"> Powerpoint
 
 • <img width="21" height="21" src="Images/html.png"> HTML
 
 • <img width="21" height="21" src="Images/css.png"> CSS
+<br></br>
 
 # Resources
 
-• Dataset: [updated_beer_profile_and_ratings.csv](https://github.com/Tmalasky/Beer_Recommender/files/9914763/updated_beer_profile_and_ratings.csv)<br>
-• Recommendation System Inspiration: [Creating a Beer Recommender (GitHub)](https://github.com/ruthgn/Beer-Recommender) + [Kaggle Link](https://www.kaggle.com/code/ruthgn/creating-a-beer-recommender-deployment)
+• Dataset -> [updated_beer_profile_and_ratings.csv](https://github.com/Tmalasky/Beer_Recommender/files/9914763/updated_beer_profile_and_ratings.csv)<br>
+• Recommendation System Inspiration -> [Creating a Beer Recommender (GitHub)](https://github.com/ruthgn/Beer-Recommender) + [Kaggle Link](https://www.kaggle.com/code/ruthgn/creating-a-beer-recommender-deployment)
 <br></br>
 
 ### ERD
 <img src="Images/ERD.png">
-
-# Rules & Expectations
-- Rule # 1 Work as a team!
-- Rule # 2 Use Slack and Zoom to communicate any issues or to pass along any information.
-- Rule # 3 Team Participation and use of class time to work on project is required.
-- Rule # 4 Team members must ask for help when stuck on an individual task.
-- Rule # 5 Team members will complete tasks on time for review and approval.
-- Rule # 6 Team members must inform if the task will be completed late.
-- Rule # 7 Team members must inform if an emergency presents itself and responsibilities must be divided.
+<br></br>
 
 # Machine Learning Model
 <p align="center">
   <img width="950" height="400" src="Images/beer sciene.jpeg">
 </p>
 
-We are building a multi-class classification model that will analyze user preferences to determine
+We are using a multi-class classification model that analyzes user preferences to determine
 preferred beer style and make recommendations.
 <br></br>
 
