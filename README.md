@@ -84,7 +84,7 @@ Cheers.
 </p>
 <br></br>
 
-# Machine Learning Model
+# About the Model
 <p align="center">
   <img width="950" height="400" src="Images/beer sciene.jpeg">
 </p>
@@ -135,3 +135,6 @@ A ReLU activation function made the most sense for our hidden layers given its s
 and its efficiency in training a deep network on large, labeled datasets. While in our output layer, the softmax function outputs a vector of values that sum to 1.0, with each value representing a probability of class membership, 
 which was perfect for our problem.
 <br></br>
+
+## Similar Beers with K-Neighbors
+Once the style of beer could be determined, we implemented a KNN algorithm to find the 5 most similar beers based on taste profile, filtering the data for beers of the same style and of other styles, respectively, for a total of 10 recommendations (5 of same style, 5 of other styles). Then, using a ball tree algorithm, beers are clustered based on their attributes, allowing us to search those clusters with user input until we find a close enough match.
