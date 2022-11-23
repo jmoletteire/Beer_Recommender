@@ -137,4 +137,4 @@ which was perfect for our problem.
 <br></br>
 
 ## Similar Beers with K-Neighbors
-Once the style of beer could be determined, we implemented a KNN algorithm to find the 5 most similar beers based on taste profile, filtering the data for beers of the same style and of other styles, respectively, for a total of 10 recommendations (5 of same style, 5 of other styles). Then, using a ball tree algorithm, beers are clustered based on their attributes, allowing us to search those clusters with user input until we find a close enough match.
+Once the style of beer could be determined, we implemented a KNN algorithm to find the 5 most similar beers based on taste profile, filtering the data for beers of the same style and of other styles, respectively, for a total of 10 recommendations (5 of same style, 5 of other styles). Then, using a ball tree algorithm, beers were clustered based on their attributes, allowing us to search those clusters with user input until we found a close enough match.
