@@ -24,15 +24,15 @@ Cheers.
 <br></br>
 
 # Software and Technologies
-•  <img width="21" height="21" src="Images/python.svg"> Python 3.7.13
+•  <img width="21" height="21" src="Images/python.svg"> Python 3.10.8
 
 • <img width="21" height="21" src="Images/python_sqlite.jpeg"> SQLite
 
 • <img width="21" height="21" src="Images/pandas-icon.svg"> Pandas 1.3.5
 
-• <img width="21" height="21" src="Images/sklearnicon.png"> Scikit-Learn 1.1.3
+• <img width="21" height="21" src="Images/sklearnicon.png"> Scikit-Learn 1.0.2
 
-• <img width="21" height = "21" src="Images/tf.png"> TensorFlow 2.10.0
+• <img width="21" height = "21" src="Images/tf.png"> TensorFlow 2.11.0
 
 • <img width="21" height="21" src="Images/Tableauicon.jpeg"> Tableau Public 
 
