@@ -12,7 +12,7 @@ But with so many beers and breweries to choose from, finding the right beer can 
 
 Cheers.
 
-[Try the App](https://jmoletteire.pythonanywhere.com/)
+--> [Try the App](https://jmoletteire.pythonanywhere.com/)
 <br></br>
 
 # Team Members:
