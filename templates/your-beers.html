@@ -5,32 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Craft Beer Recommender</title>
-    <!-- Link to Bootstrap CDN -->
-    <link
-    rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous"
-    />
     <!-- Link to our stylesheet -->
     <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
-    <!-- NAV BAR -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-        <!-- Link to refresh page  -->
-        <a class="navbar-brand" href="/"><h1>Craft Beer Recommender</h1></a>
-    </nav>
+    <!-- Navbar -->
+    <ul>
+        <li class="page-title"><a href="/"><center>Craft Beer Recommender</center></a></li>
+        <li style="float:right"><a href="#about">About</a></li>
+        <li style="float:right"><a class="active" href="/">Home</a></li>
+    </ul>
     <div class="container">
         <p><h3>We think you'd like a <b>{{ pred_style }}</b></h3></p>
         <br>
         <!-- Similar Beers -->
-        <div class="row" id="same-style">
+        <div id="same-style">
             <h3>Beers That Fit Your Style</h3>
             <table class="table">{{ top_5_same_style | safe }}</table>
         </div>
         <br></br>
-        <div class="row" id="other-styles">
+        <div id="other-styles">
             <h3>Other Beers You Might Like</h3>
             <table class="table">{{ top_5_diff_style | safe }}</table>
         </div>

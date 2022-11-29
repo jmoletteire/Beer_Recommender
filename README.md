@@ -5,7 +5,7 @@
 
 # Overview
 
-The market for craft beer in the U.S. continues to grow, as consumers’ willingness to spend more for variety, flavor and quality has increased since its beginnings in the 1960s. Craft beer typically features higher quality ingredients, providing consumers with a more distinct and flavorful beer than mass-produced options. Those reaching for a craft beer often want to try something different and new. The number of independent breweries operating in the U.S. reached an all-time high in 2021, with 9,118 different locations producing their own brew ([Brewers Association](https://www.brewersassociation.org/statistics-and-data/national-beer-stats/)). For perspective, there were only about 13,000 McDonald's locations nationwide that same year ([Statista](https://www.statista.com/statistics/256040/mcdonalds-restaurants-in-north-america/)), and there are currently just 3,062 Chipotle locations in the United States ([ScrapeHero](https://www.scrapehero.com/location-reports/Chipotle-USA/)). So yeah, people like their beer.<br>
+The market for craft beer in the U.S. continues to grow, and consumers’ willingness to spend more for variety, flavor and quality has only increased since independent brewing, as we know it, took shape in the 1960s. Craft beer typically features higher quality ingredients, providing beer-drinkers with a more distinct and flavorful beer than mass-produced options. Those reaching for a craft beer want to try something different and new. The number of independent breweries operating in the U.S. reached an all-time high in 2021, with 9,118 different locations producing their own brew ([Brewers Association](https://www.brewersassociation.org/statistics-and-data/national-beer-stats/)). For perspective, there were only about 13,000 McDonald's locations nationwide that same year ([Statista](https://www.statista.com/statistics/256040/mcdonalds-restaurants-in-north-america/)), and there are currently just 3,062 Chipotle locations in the United States ([ScrapeHero](https://www.scrapehero.com/location-reports/Chipotle-USA/)). So yeah, people like their beer.<br>
 
 But with so many beers and breweries to choose from, finding the right beer can seem daunting, and even a little hopeless. That's where we come in. Our goal is to answer everyone's first question when they get to the bar or the beer aisle, "What should I get?" To do so, we are developing a Beer Recommendation app, using this [Beer Profile and Ratings Data Set](https://www.kaggle.com/datasets/ruthgn/beer-profile-and-ratings-data-set), to find the perfect beer for you based on your taste preferences. Featuring taste profiles and consumer reviews for over 3000 unique beers and 934 different breweries, we are confident we can find you the right brew.
 <br>
@@ -65,16 +65,16 @@ Cheers.
 # Answers
 [Tableau Visual Graphs](https://public.tableau.com/app/profile/tim6081/viz/Final_Project_16681028326290/Most_popular_flavor_profile?publish=yes)
 
-### #1 Most Popular Beer
+### 1.) Top 25 Most Popular Beers
 ![Most_Popular_Beer](https://user-images.githubusercontent.com/107282754/202057784-6179d3f6-b4cc-4c6d-bdc1-fef3185858c7.png)
 
-### #2 Most Popular Flavor Profile based on the dataset.
+### 2.) Top 25 Most Popular Styles of Beer
 ![Most_Popular_Flavor_Profile](https://user-images.githubusercontent.com/107282754/202057578-b0e2911f-4dd7-47ae-911d-6e2a22f3d593.png)
 
-### #3 Most Popular Brewery based on the dataset.
+### 3.) Top 25 Most Popular Breweries
 ![Most_Popular_Breweries](https://user-images.githubusercontent.com/107282754/202057812-ec31150f-e75f-4911-a097-19dd783c526b.png)
 
-### #4 What type of beer should I get based on our beer recommending system?
+### Craft Beer Recommender
 <p align="center">
   <img width="950" height="400" src="Images/home-page.png">
 </p>
