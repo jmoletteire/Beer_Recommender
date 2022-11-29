@@ -21,6 +21,9 @@ def your_beers():
             "your-beers.html", pred_style = pred_style, top_5_same_style = top_5_same_style, top_5_diff_style = top_5_diff_style
             )
 
+@app.route("/about", methods=["GET", "POST"])
+def about():
+    return render_template("about.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
