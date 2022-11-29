@@ -5,22 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Craft Beer Recommender</title>
-    <!-- Link to Bootstrap CDN -->
-    <link
-    rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous"
-    />
     <!-- Link to our stylesheet -->
     <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
-    <!-- NAV BAR -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-        <!-- Link to refresh page  -->
-        <a class="navbar-brand" href="/"><h1>Craft Beer Recommender</h1></a>
-    </nav>
+    <!-- Navbar -->
+    <ul>
+        <li class="page-title"><a href="/"><center>Craft Beer Recommender</center></a></li>
+        <li style="float:right"><a href="#about">About</a></li>
+        <li style="float:right"><a class="active" href="/">Home</a></li>
+    </ul>
     <div class="container">
         <!-- SLIDERS -->
         <form action="your-beers" method="post" id="sliders">
@@ -32,7 +26,7 @@
             </div>
             <!-- Body (Light/Dark)-->
             <div class="slider">
-                <p><b>Darkness</b><pre></pre></p>
+                <p><b>Dark</b><pre></pre></p>
                 <input type="range" name="user_input" min="0" max="100" value="50" step="1" oninput="bodyValue.innerText = this.value">
                 <p id="bodyValue">50</p>
             </div>
@@ -84,11 +78,16 @@
                 <input type="range" name="user_input" min="0" max="100" value="50" step="1" oninput="maltyValue.innerText = this.value">
                 <p id="maltyValue">50</p>
             </div>
-            <!-- BUTTONS -->
-            <button class="reset-button btn-lg" onclick="history.go(0);">Reset Taste</button>
-            <button class="button btn-lg" form="sliders" type="submit">Go!</button>
+            <!-- SUBMIT FORM -->
+            <div>
+                <button class="button btn-lg" form="sliders" type="submit">Go!</button>
+            </div>
             
         </form>
+        <!-- RESET FORM (REFRESH PAGE) -->
+        <div>
+            <button class="reset-button btn-lg" onclick="history.go(0);">Reset Taste</button>
+        </div>
         
     </div>
 </body>
