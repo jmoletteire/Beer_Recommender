@@ -15,17 +15,17 @@
         <li style="float:right"><a href="#about">About</a></li>
         <li style="float:right"><a class="active" href="/">Home</a></li>
     </ul>
-    <div class="container">
-        <p><h3>We think you'd like a <b>{{ pred_style }}</b></h3></p>
+    <div class="content">
+        <p><h2>We think you'd like a <b>{{ pred_style }}</b></h3></p>
         <br>
         <!-- Similar Beers -->
-        <div id="same-style">
-            <h3>Beers That Fit Your Style</h3>
+        <div style="overflow-x: auto;" id="same-style">
+            <h2>Beers That Fit Your Style</h3>
             <table class="table">{{ top_5_same_style | safe }}</table>
         </div>
         <br></br>
-        <div id="other-styles">
-            <h3>Other Beers You Might Like</h3>
+        <div style="overflow-x: auto;" id="other-styles">
+            <h2>Other Beers You Might Like</h3>
             <table class="table">{{ top_5_diff_style | safe }}</table>
         </div>
     </div>

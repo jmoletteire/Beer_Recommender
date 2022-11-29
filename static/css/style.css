@@ -1,7 +1,9 @@
 html, body {
     width: 100%;
     height: 100%;
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
 body {
@@ -72,7 +74,7 @@ li a:hover {
 
 /**************** SLIDERS ****************/
 .container {
-    margin-top: 50px;   
+    margin-top: 50px;
 }
 
 .slider {
@@ -193,14 +195,39 @@ li a:hover {
     width: 25%;
   }
 
+.content {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: fit-content;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+}
+
+h2 b {
+    font-size: larger;
+}
+
 .table * {
-    text-align: center;
+    border-collapse: collapse;
     color: burlywood;
+    font-family: Helvetica, sans-serif;
+    padding: 8px;
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
 }
 
 tr:nth-child(odd) { background-color: rgb(67, 60, 50)}
 tr:nth-child(even) { background-color: rgb(50, 48, 43) }
 
-.table thead * { 
+.table thead * {
     background-color: rgb(113, 69, 37);
+    border: 1px solid;
+    padding: 8px;
 }
