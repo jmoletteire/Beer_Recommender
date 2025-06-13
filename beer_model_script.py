@@ -45,16 +45,16 @@ def scale_and_encode(beers_df):
     ##### ENCODE CATEGORICAL DATA #####
 
     # Create OneHotEncoder instance
-    enc = OneHotEncoder(sparse=False)
+    enc = OneHotEncoder(sparse_output=False)
 
     # Fit the encoder and produce encoded DataFrame
     encode_df = pd.DataFrame(enc.fit_transform(beers_df['Style'].values.reshape(-1,1)))
 
     # Rename encoded columns
-    encode_df.columns = enc.get_feature_names(['Style'])
+    encode_df.columns = enc.get_feature_names_out(['Style'])
 
     # Merge the two DataFrames together and drop the Style column
-    encoded_styles_df = beers_df.merge(encode_df,left_index=True,right_index=True).drop("Style",1)
+    encoded_styles_df = beers_df.merge(encode_df,left_index=True,right_index=True).drop("Style",axis=1)
     return encode_df, encoded_styles_df
 
 

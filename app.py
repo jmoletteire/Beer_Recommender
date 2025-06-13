@@ -14,16 +14,18 @@ def your_beers():
         user_input = request.form.getlist('user_input')
         pred_style, top_5_same_style, top_5_diff_style = beer_model_script.find_beers(user_input)
         return render_template(
-            "your-beers.html", pred_style = pred_style, top_5_same_style = top_5_same_style, top_5_diff_style = top_5_diff_style
+            "your-beers.html", pred_style=pred_style, top_5_same_style=top_5_same_style, top_5_diff_style=top_5_diff_style
             )
     else:
         return render_template(
-            "your-beers.html", pred_style = pred_style, top_5_same_style = top_5_same_style, top_5_diff_style = top_5_diff_style
+            "your-beers.html", pred_style=pred_style, top_5_same_style=top_5_same_style, top_5_diff_style=top_5_diff_style
             )
+
 
 @app.route("/about", methods=["GET", "POST"])
 def about():
     return render_template("about.html")
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='127.0.0.1', port=5000)
