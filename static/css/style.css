@@ -320,4 +320,7 @@ tr:nth-child(even) {
     width: 100%;
     left: 0;
   }
+  .content {
+    margin-top: 150px; /* Adjust for mobile header */
+  }
 }
